@@ -9,6 +9,7 @@ body {
  color:#181818;
 }
 h1,
+
 h3{
  margin:0;
  padding:0
@@ -79,4 +80,25 @@ h3{
     max-width: 100%;
     justify-content: space-around;
     padding-right: 25px;
+}
+
+.videoTitle,
+.description,
+.content {
+ display:-webkit-box;
+ display:-ms-flexbox;
+ display:flex
+}
+
+hr {
+ margin:5px 0 15px 0;
+ border:none;
+ height:1px;
+ background-color:#d1d1d1;
+ color:#d1d1d1
+}
+
+.content {
+ width:85vw;
+ margin:27px auto
 }
