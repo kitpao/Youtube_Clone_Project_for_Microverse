@@ -107,7 +107,7 @@ h1,h2,h3,h4,h5,h6{
  display:flex;
 }
 .content {
- width:85vw;
+ width:90vw;
  padding-top:  80px;
  margin-left: 6vw;
 }
@@ -139,7 +139,7 @@ hr {
  color:#d1d1d1;
 }
 section{
-  width:85vw;
+  width:67vw;
   padding-right: 20px;
 }
 
@@ -269,6 +269,8 @@ section{
   padding-top: 15px;
   padding-bottom: 7px;
   display: flex;
+  -webkit-box-pack:justify;
+  -ms-flex-pack:justify;
   justify-content: flex-start;
   align-items: center;
 }
@@ -278,4 +280,49 @@ section{
 .comment-box-replies {
   font-weight: bold;
   font-size: 0.8rem;
+}
+aside{
+  width:20vw;
+  padding-left: 5px;
+}
+
+.nextVideo{
+  display: flex;
+  -webkit-box-pack:justify;
+  -ms-flex-pack:justify;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.nextVideo span{
+  padding-top: 3px;
+  font-weight: 200;
+}
+.suggestedVideo{
+  display: flex;
+  -webkit-box-pack:justify;
+  -ms-flex-pack:justify;
+  padding-top: 5px;
+}
+.suggestedVideo h3{
+  font-weight: 700;
+  font-size: 1rem;
+  font-family: Arial;
+}
+
+.suggestedVideo p{
+  color: #606060;
+  font-weight: 100;
+  font-size: 0.8rem;
+  font-family: Arial;
+  padding-top: 5px;
+}
+
+aside hr{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.thumb{
+  padding-right: 6px;
 }
