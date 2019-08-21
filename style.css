@@ -51,6 +51,7 @@ h1,h2,h3,h4,h5,h6{
   padding-left: 30px;
 }
 .navigation .search_icon{
+  height: 30px;
  background-color:#f8f8f8;
  padding:0 20px;
  border:none;
@@ -89,8 +90,8 @@ h1,h2,h3,h4,h5,h6{
   position: relative;
   width: 100%;
   padding-bottom: 56.25%;
-  height: 0;
   z-index:0;
+
 }
 .iframe-container iframe{
   position: absolute;
@@ -183,7 +184,7 @@ section{
   -webkit-box-pack:justify;
   -ms-flex-pack:justify;
   justify-content:space-between;
-  width: inherit;
+  width: 100%;
 }
 .subscribe img{
   padding-left: 150px;
@@ -247,7 +248,6 @@ section{
 .user_comment_name h5{
   font-family: Arial;
   font-size: 0.8rem;
-
 }
 .user_comment_name h6{
   color: #606060;
@@ -278,8 +278,9 @@ section{
   padding-top: 9px;
 }
 .comment-box-replies {
-  font-weight: bold;
+  font-weight: 800;
   font-size: 0.8rem;
+  font-family: Arial;
 }
 aside{
   width:20vw;
