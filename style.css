@@ -51,12 +51,14 @@ h1,h2,h3,h4,h5,h6{
   padding-left: 30px;
 }
 .navigation .search_icon{
-  height: 30px;
+ height: 30px;
  background-color:#f8f8f8;
  padding:0 20px;
  border:none;
  border-left:1px solid #d3d3d3;
-
+}
+.navigation .search_img{
+  height: 30px;
 }
 .navigation .search {
  width:45vw;
@@ -160,6 +162,7 @@ section{
 }
 .author{
   font-family: Arial;
+  padding-right: 150px;
 }
 .author h5{
   font-size:1rem;
@@ -187,8 +190,12 @@ section{
   width: 100%;
 }
 .subscribe img{
-  padding-left: 150px;
   height: 30px;
+}
+.subscribe button{
+  border-color: transparent;
+  height: 31px;
+  color: transparent;
 }
 
 .viewMore hr{
