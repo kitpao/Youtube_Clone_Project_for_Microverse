@@ -4,7 +4,8 @@ Clone project for Youtube with HTML CSS and JS
 As a microverse project we intent to use our knowledge in HTML5, CSS and Java-
 Script to build a clon webpage of YouTube with working media in it.
 
-This project is made by Kitzia Vidal and Leonardo Mezu
+This project is made by Kitzia Vidal (kitpao) and Leonardo Mezu
+You can see the live page here: https://raw.githack.com/kitpao/Youtube_Clone_Project_for_Microverse/master/index.html
 
 Skills to use:
 -use fixed nav bar
